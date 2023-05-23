@@ -6,6 +6,7 @@ HBSS::HBSS()
 	this->type = 3;
 	this->img_num = 8;
 	this->attack = 13;
+	this->count=0;
 }
 
 void HBSS::jineng(vector<bullet>& bullets, vector<zm*>&zms, vector<sunshine>& ball)
@@ -17,7 +18,6 @@ void HBSS::jineng(vector<bullet>& bullets, vector<zm*>&zms, vector<sunshine>& ba
 		}
 	}
 	if (line[row]) {
-		static int count = 0;
 		count++;
 		if (count > 20) {
 			count = 0;
