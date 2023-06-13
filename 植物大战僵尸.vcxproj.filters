@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4bd0fa83-eba8-4d54-89e4-c8dc327a5814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\植物">
+      <UniqueIdentifier>{8dc6620c-0c50-43f9-a1e0-68c223a25e65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\僵尸">
+      <UniqueIdentifier>{36159b2c-e129-4d46-980d-4265be00b23d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{219a345a-a7fd-467e-b44b-fb14239aefef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\植物">
+      <UniqueIdentifier>{2cc07dc3-dbda-4eb8-a0ca-204844f904d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\僵尸">
+      <UniqueIdentifier>{787f7e7d-ac74-4c2c-aae1-83b0a9f29b8f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="文件\Game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="文件\bullet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="文件\res.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="文件\sunshine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="文件\tools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="文件\vector2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="文件\glqzm.h">
+      <Filter>头文件\僵尸</Filter>
+    </ClInclude>
+    <ClInclude Include="文件\lzzm.h">
+      <Filter>头文件\僵尸</Filter>
+    </ClInclude>
+    <ClInclude Include="文件\ttzm.h">
+      <Filter>头文件\僵尸</Filter>
+    </ClInclude>
+    <ClInclude Include="文件\zm.h">
+      <Filter>头文件\僵尸</Filter>
+    </ClInclude>
+    <ClInclude Include="文件\HBSS.h">
+      <Filter>头文件\植物</Filter>
+    </ClInclude>
+    <ClInclude Include="文件\HJSZ.h">
+      <Filter>头文件\植物</Filter>
+    </ClInclude>
+    <ClInclude Include="文件\JGQ.h">
+      <Filter>头文件\植物</Filter>
+    </ClInclude>
+    <ClInclude Include="文件\plant.h">
+      <Filter>头文件\植物</Filter>
+    </ClInclude>
+    <ClInclude Include="文件\SRH.h">
+      <Filter>头文件\植物</Filter>
+    </ClInclude>
+    <ClInclude Include="文件\TDDL.h">
+      <Filter>头文件\植物</Filter>
+    </ClInclude>
+    <ClInclude Include="文件\WDSS.h">
+      <Filter>头文件\植物</Filter>
+    </ClInclude>
+    <ClInclude Include="文件\XRK.h">
+      <Filter>头文件\植物</Filter>
+    </ClInclude>
+    <ClInclude Include="文件\YTZD.h">
+      <Filter>头文件\植物</Filter>
+    </ClInclude>
+    <ClInclude Include="文件\car.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="文件\Game.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="文件\源.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="文件\res.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="文件\tools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="文件\vector2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="文件\glqzm.cpp">
+      <Filter>源文件\僵尸</Filter>
+    </ClCompile>
+    <ClCompile Include="文件\lzzm.cpp">
+      <Filter>源文件\僵尸</Filter>
+    </ClCompile>
+    <ClCompile Include="文件\ttzm.cpp">
+      <Filter>源文件\僵尸</Filter>
+    </ClCompile>
+    <ClCompile Include="文件\zm.cpp">
+      <Filter>源文件\僵尸</Filter>
+    </ClCompile>
+    <ClCompile Include="文件\HBSS.cpp">
+      <Filter>源文件\植物</Filter>
+    </ClCompile>
+    <ClCompile Include="文件\HJSZ.cpp">
+      <Filter>源文件\植物</Filter>
+    </ClCompile>
+    <ClCompile Include="文件\JGQ.cpp">
+      <Filter>源文件\植物</Filter>
+    </ClCompile>
+    <ClCompile Include="文件\plant.cpp">
+      <Filter>源文件\植物</Filter>
+    </ClCompile>
+    <ClCompile Include="文件\SRH.cpp">
+      <Filter>源文件\植物</Filter>
+    </ClCompile>
+    <ClCompile Include="文件\TDDL.cpp">
+      <Filter>源文件\植物</Filter>
+    </ClCompile>
+    <ClCompile Include="文件\WDSS.cpp">
+      <Filter>源文件\植物</Filter>
+    </ClCompile>
+    <ClCompile Include="文件\XRK.cpp">
+      <Filter>源文件\植物</Filter>
+    </ClCompile>
+    <ClCompile Include="文件\YTZD.cpp">
+      <Filter>源文件\植物</Filter>
+    </ClCompile>
+    <ClCompile Include="文件\car.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
