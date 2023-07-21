@@ -558,10 +558,12 @@ void Game::userclick()
 {
 	ExMessage msg;
 	static int status = 0;
+	static int idx = 0;
 	if (peekmessage(&msg)) {
 		if (msg.message == WM_LBUTTONDOWN) {//Êó±ê°´ÏÂ
 			if (msg.x > 227 && msg.x < 227 + 64 * ZW_COUNT && msg.y < 96 && msg.y>8) {
-				curPlant= getcurplant((msg.x - (227)) / 64);
+				idx = (msg.x - (227)) / 64;
+				curPlant= getcurplant(idx);
 				status = 1;
 			}
 			else if (msg.x>750&&msg.x<750+70&&msg.y<70&&msg.y>10) {
@@ -581,14 +583,14 @@ void Game::userclick()
 			if (x > 144 && y > 77 && y < 591) {
 				int row = (y - 77) / 102;
 				int col = (x - 144) / 81;
-				if (curPlant&&(!map[row][col] ||!map[row][col]->used) && status == 1 && sun >= curPlant->cost&& type2[type[curPlant->type-1]]->card_indx==46) {
+				if (curPlant&&(!map[row][col] ||!map[row][col]->used) && status == 1 && sun >= curPlant->cost&& type2[idx]->card_indx==46) {
 					curPlant->y = 77 + row * 102+curPlant->dy;
 					curPlant->x = 144 + col * 81;
 					curPlant->row = row;
 					curPlant->col = col;
 					curPlant->used = true;
 					map[row][col] = curPlant;
-					type2[type[curPlant->type - 1]]->card_indx = 0;
+					type2[idx]->card_indx = 0;
 					sun -= map[row][col]->cost;
 					PlaySound(TEXT("res/music/plant1.wav"), NULL, SND_FILENAME | SND_ASYNC);
 					status = 0;
