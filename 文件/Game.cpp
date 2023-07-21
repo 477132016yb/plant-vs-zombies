@@ -14,7 +14,7 @@ Game::Game() {
 	cars.resize(5);
 	ball.resize(10);
 	bullets.resize(20);
-	sun = 150;
+	sun = 1500;
 	chanzi = false;
 }
 
