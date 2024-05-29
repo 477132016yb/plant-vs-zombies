@@ -134,10 +134,10 @@
     <ClInclude Include="src\Atlas.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\BucketZombie.h">
+    <ClInclude Include="src\Bullet.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\Bullet.h">
+    <ClInclude Include="src\BucketZombie.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\Button.h">
